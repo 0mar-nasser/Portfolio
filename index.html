@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Omar Nasser - Frontend Developer & UI/UX Designer Portfolio">
+        <meta name="keywords" content="Frontend, Developer, React, JavaScript, Portfolio, UI UX, Web Design">
+        <meta name="author" content="Omar Nasser">
+
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> My Portoflio </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Omar</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx  bx-home'  ></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__link">
+                                <i class='bx  bx-user'  ></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav__link">
+                                <i class='bx  bx-book'  ></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#work" class="nav__link">
+                                <i class='bx  bx-briefcase-alt-2'  ></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav__link">
+                                <i class='bx  bx-message-dots'  ></i> 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Them change button -->
+                 <i class='bx  bx-moon change-theme' id="theme-button" ></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, i'm</span>
+                        <h1 class="home__name">Omar Nasser</h1>
+                        <h3 class="home__education">Frontend Developer & Ui/Ux</h3>
+                        
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/Omar-Nasser__CV.pdf" class="button button--ghost"> Download CV</a>
+                            <a href="#about" class="button">About Me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/new.png" alt="Omar Nasser profile picture" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/omar-naser-3607a725b/" target="_blank" class="home__social-link">
+                            <i class='bxl  bx-linkedin'  ></i> 
+                        </a>
+                        <a href="https://github.com/0mar-nasser" target="_blank" class="home__social-link">
+                            <i class='bxl  bx-github'  ></i> 
+                        </a>
+                        <a href="https://www.instagram.com/0mar_naser/" target="_blank" class="home__social-link">
+                            <i class='bxl  bx-instagram'  ></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx  bx-award about__icon'  ></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">+1 Working</span>
+                            </div>
+                            <div class="about__box">
+                                <i class='bx  bx-briefcase-alt about__icon'  ></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">+3 projects</span>
+                            </div>
+                            <div class="about__box">
+                                <i class='bx  bx-support about__icon'  ></i>
+                                <h3 class="about__title">Support</h3>
+                                <span class="about__subtitle">Online 24/7</span>
+                            </div>
+                        </div>
+                        <p class="about__description">
+                            I'm a front-end developer with a growing passion for creating modern and responsive web interfaces. 
+                            I have solid experience in building user-friendly designs using HTML, CSS, JavaScript, and React.
+                            I'm also learning back-end development with PHP and Laravel to become a full-stack developer.
+                            In addition, I have good knowledge of UI/UX design, which helps me create better user experiences.
+                        </p>
+                        <a href="#contact" class="button">contact me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Experience</h2>
+
+                <div class="skills__container container grid">
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend developer</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>    
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">Git & GitHub</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">OOP</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>    
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class='bx  bx-badge-check'  ></i>
+                                    <div>
+                                        <h3 class="skills__name">RESTful API</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Additional & Learning Skills</h3>
+                        
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div><h3 class="skills__name">TypeScript</h3>
+                                        <span class="skills__level">Learning</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Next.js</h3>
+                                        <span class="skills__level">Learning</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Advanced React</h3>
+                                        <span class="skills__level">Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">UI/UX Basics</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Tailwind CSS</h3>
+                                        <span class="skills__level">Intermediat</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            <!--=============== SERVICES ===============-->
+            <!-- <section class="services section">
+                <span class="section__subtitle">What I offer</span>
+                <h2 class="section__title">My Services</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Product <br> Designer</h3>
+                        
+                        <span class="services__button">
+                            View More<i class='bx  bx-arrow-right services__icon'  ></i> 
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">Product Designer</h3>
+                                <p class="services__modal-description">
+                                    Service with more than 3 years of experience.
+                                    Providing quality work to clients and companies.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Web Page development.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I create UX element interactions.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I position your company brand.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Design and mockups of products for companies.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                        
+                        <span class="services__button">
+                            View More<i class='bx  bx-arrow-right services__icon'  ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">Ui/Ux Designer</h3>
+                                <p class="services__modal-description">
+                                    Service with more than 3 years of experience.
+                                    Providing quality work to clients and companies.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Web Page development.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I create UX element interactions.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I position your company brand.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Design and mockups of products for companies.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Visual <br> Designer</h3>
+                        
+                        <span class="services__button">
+                            View More<i class='bx  bx-arrow-right services__icon'  ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">Visual Designer</h3>
+                                <p class="services__modal-description">
+                                    Service with more than 3 years of experience.
+                                    Providing quality work to clients and companies.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Web Page development.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I create UX element interactions.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            I position your company brand.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Design and mockups of products for companies.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter = 'all' >All</span>
+                    <span class="work__item "data-filter='.web'>Web</span>
+                    <span class="work__item "data-filter='.mobile'>Mobile</span>
+                    <span class="work__item "data-filter='.design'>Design</span>
+                </div>
+
+                <div class="work__container container grid">
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/Cover.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Web Design</h3>
+
+                        <a href="https://0mar-nasser.github.io/react-academy-website/" target="_blank" class="work__button">
+                            Demo <i class='bx  bx-arrow-right work__icon'  ></i> 
+                        </a>
+                    </div>
+
+                    <!-- <div class="work__card mix mobile">
+                        <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">App Mobile</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class="bx bx-arrow-right work__icon"></i>
+                        </a>
+                    </div> -->
+
+                    <!-- <div class="work__card mix design">
+                        <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Brand Design</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class="bx bx-arrow-right work__icon"></i>
+                        </a>
+                    </div> -->
+
+                    <!-- <div class="work__card mix web">
+                        <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Web Design</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class="bx bx-arrow-right work__icon"></i>
+                        </a>
+                    </div> -->
+                    <!-- <div class="work__card mix mobile">
+                        <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Mobile App</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class="bx bx-arrow-right work__icon"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx  bx-envelope-open contact__card-icon'  ></i> 
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">omaraboghazi192002@gmail.com</span>
+
+                                <a href="mailto:omaraboghazi192002@gmail.com" target="_blank" class="contact__button">
+                                    Write me <i class="bx bx-arrow-right contact__button-icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bxl  bx-whatsapp contact__card-icon'  ></i> 
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <span class="contact__card-data">+201033724410</span>
+
+                                <a href="https://wa.me/201033724410" target="_blank" rel="noopener noreferrer" class="contact__button">
+                                    Write me <i class="bx bx-arrow-right contact__button-icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bxl  bx-instagram contact__card-icon'  ></i>
+                                <h3 class="contact__card-title">instagram</h3>
+                                <span class="contact__card-data">0mar_Nasser</span>
+
+                                <a href="https://www.instagram.com/0mar_naser/" target="_blank" rel="noopner noreferrer" class="contact__button">
+                                    Write me <i class="bx bx-arrow-right contact__button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your project</h3>
+                        <form id="contact-form" class="contact__form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Name</label>
+                                <input type="text" name="name" class="contact__form-input" placeholder="Insert your name" required>
+                            </div>
+                            
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" name="email" class="contact__form-input" placeholder="Insert your email" required>
+                            </div>
+                            
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Project</label>
+                                <textarea name="project" cols="30" rows="10" class="contact__form-input" placeholder="Write your project" required></textarea>
+                            </div>
+
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Portfolio</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/omar-naser-3607a725b/" target="_blank" class="footer__social-link">
+                        <i class='bxl  bx-linkedin'  ></i> 
+                    </a>
+                    <a href="https://github.com/0mar-nasser" target="_blank" class="footer__social-link">
+                        <i class='bxl  bx-github'  ></i> 
+                    </a>
+                    <a href="https://www.instagram.com/0mar_naser/" target="_blank" class="footer__social-link">
+                        <i class='bxl  bx-instagram'  ></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">&#169; All rights reserved</span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!-- سكريبت EmailJS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="assets/js/contact.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </body>
+</html>
